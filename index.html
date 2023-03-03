@@ -1,0 +1,198 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+
+  <title>Weather</title>
+
+
+
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+
+
+
+
+
+</head>
+
+<body>
+
+  <div class="site-cont">
+    <header>
+
+
+      <div class="container">
+        <a href="index.html" class="branding">
+          <img src="https://routeweather.netlify.app/images/logo@2x.png" alt="" class="logo" width="64" height="38">
+
+          <!-- logo image -->
+
+
+
+
+          <div class="logo-content">
+            <h1 class="site-title">Weather</h1>
+            <small class="site-des">tagline goes here</small>
+          </div>
+          <!-- Nav content -->
+
+
+
+
+
+
+
+        </a>
+
+
+        <div class="main-nav">
+          <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+          <ul class="menu">
+            <li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+            <li class="menu-item"><a href="#">News</a></li>
+            <li class="menu-item"><a href="#">Live cameras</a></li>
+            <li class="menu-item"><a href="#">Photos</a></li>
+            <li class="menu-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="mobile-navigation">
+
+        </div>
+
+
+
+      </div>
+    </header>
+  </div>
+
+  <div class="clip-bg mt-5" data-bg-image="images/banner.png" style="background-image: url(images/banner.png);">
+
+    <div class="container">
+
+
+      <form class="location">
+        <input type="text" id="search" placeholder="Find your location" onkeyup="getWeather(this.value)">
+
+        <button class="btn btn-primary" id="find_btn"> Find</button>
+
+
+
+      </form>
+    </div>
+
+  </div>
+  <div class="container" id="general-forecast">
+  <!-- <div class="row gy-4">
+    <div class="col-md-4 first text-white">
+      <div class="heads d-flex justify-content-between">
+        <p>saturday</p>
+        <p> 25 febrauary</p>
+      </div>
+      <div class="body">
+        <h5 class="text-white">Cairo</h5>
+        <span class="d-flex justify-content-between" >
+        <h2>15<span class="sub1">o</span> c</h2>
+        <img src="https://cdn.weatherapi.com/weather/64x64/night/113.png" alt="moon" width="21%" class="mb-5">
+      </span>
+        <h6 class="text-info">clear</h6>
+      </div>
+      <div class="icons d-flex">
+        <div class="each-icon1 me-4">
+          <img src="https://routeweather.netlify.app/images/icon-umberella@2x.png" alt="umbrela" width="21%">
+          20%
+        </div>
+        <div class="each-icon2 me-4">
+          <img src="https://routeweather.netlify.app/images/icon-wind@2x.png" alt="umbrela" width="21%">
+          18km/h
+        </div>
+        <div class="each-icon3 me-4">
+          <img src="https://routeweather.netlify.app/images/icon-compass@2x.png" alt="umbrela" width="21%">
+          East
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-4 second text-white">
+      <div class="header-2 text-center">
+        <p>thursday</p>
+      </div>
+
+      <div class="content-2 text-center">
+        <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="sun">
+        <h2>26.8 <span class="sub1">o</span> c</h2> 
+        <p>13 <span class="sub1">o</span> c</p>
+
+        <p class="text-info"> sunny</p>
+      </div>
+    </div>
+    <div class="col-md-4 third text-white">
+      <div class="header-3 text-center">
+        <p> sunday </p>
+      </div>
+      <div class="content-2 text-center">
+        <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="sun">
+        <h2>26.8</h2>
+        <p>13 <span class="sub1">o</span> c</p>
+
+        <p class="text-info"> sunny</p>
+      </div>
+    </div>
+  </div> -->
+
+
+  </div>
+
+
+
+  <footer>
+    <div class="foot">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <form action="#" class="forms">
+              <input type="text" placeholder="Enter your email to subscribe" class="form-control">
+              <input type="submit" value="subsrcribe">
+
+            </form>
+          </div>
+          <div class="col-md-3 ">
+            <div class="links ">
+              <a href="#"><i class="fa-brands fa-facebook "></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+        <p class="text-white pra">Copyright 2014 Company name. Designed by Themezy. All rights reserved </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
